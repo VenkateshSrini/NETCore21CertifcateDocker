@@ -1,0 +1,7 @@
+services:
+  sampledockermvc:
+    build:
+      context: D:\Venkatesh\ASPNETCore\2_1\SampleDockerMVC
+      dockerfile: SampleDockerMVC/Dockerfile
+    image: sampledockermvc
+version: '3.4'
